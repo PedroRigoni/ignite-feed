@@ -1,5 +1,5 @@
 import styles from './Comment.module.css';
-import Profile from '../assets/profile1.png'
+
 import { ThumbsUp, Trash } from '@phosphor-icons/react';
 import { Avatar } from './Avatar';
 import { useState } from 'react';
@@ -20,7 +20,7 @@ function handleLikeComment() {
 
     return (
         <div className={styles.comment}>
-            <Avatar hasBorder={false} src={Profile} alt="" />
+            <Avatar hasBorder={false} src='https://github.com/maykbrito.png' alt="" />
 
             <div className={styles.commentBox}>
                 <div className={styles.commentContent}>
